@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;700&display=swap");
+body {
+    background: #FBF8F2;
+}
+body a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.header__body {
+    background: url(back.png) 0 0/cover no-repeat;
+    height: 100vh;
+    padding: 0 20px;
+}
+.header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 1060px;
+    height: 200px;
+    margin: 0 auto;
+}
+.header__nav a {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2F2F2F;
+}
+.header__body {
+    max-width: 1060px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 70vh;
+}
+.header__body p {
+    text-align: left;
+    font-family: "DM Serif Display";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 132px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #927D54;
+}
+.header__body p:nth-child(2) {
+    text-align: right;
+    color: #BFAA80;
+}
+@media (max-width: 960px) {
+    .header p {
+        font-size: 40px;
+        line-height: normal;
+    }
+}
+@media (max-width: 480px) {
+    .header a:nth-child(2) {
+        display: none;
+    }
+    .header a:nth-child(3) {
+        display: none;
+    }
+}
+
+.shop__header {
+    margin: 150px 0 50px 0;
+    text-align: center;
+}
+.shop__header h2 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #2F2F2F;
+}
+.shop__header span {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.36);
+}
+.shop__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.shop__card {
+    width: 450px;
+    height: 360px;
+    background: #F5EFE1;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    margin: 20px;
+}
+.shop__about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.shop__about p {
+    max-width: 265px;
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    letter-spacing: -0.02em;
+    color: #858585;
+}
+.shop__about img {
+    width: 110px;
+    height: 170px;
+}
+.shop__buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: auto 20px;
+}
+.shop__buy h3 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #2F2F2F;
+}
+.shop__buy span {
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    /* identical to box height, or 175% */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #858585;
+}
+.shop__buy p {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #2F2F2F;
+}
+.shop__buy a {
+    width: 100px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #2F2F2F;
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    color: #fff;
+    border-radius: 4px;
+}
+@media (max-width: 510px) {
+    .shop__card {
+        width: 280px;
+        height: auto;
+        padding: 20px;
+    }
+    .shop__about {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .shop__about p {
+        font-size: 10px;
+    }
+    .shop__buy {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.contact {
+    max-width: 1060px;
+    padding: 100px 20px 50px 20px;
+    margin: 0 auto;
+}
+.contact__info {
+    border-left: 5px solid #BFA054;
+    padding-left: 10px;
+}
+.contact__info p {
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    text-transform: uppercase;
+    color: #2F2F2F;
+}
+.contact__info a {
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    color: #2F2F2F;
+}
+.contact__links {
+    padding: 20px 0;
+}
+.contact__links a {
+    margin: 0 20px;
+}
+
+.forms {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.forms form {
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 20px 10px;
+}
+.forms form input {
+    width: 340px;
+    height: 55px;
+    border: 1px solid #B5B5B5;
+    border-radius: 15px;
+    font-family: "Rasa";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 10px;
+}
+.forms__initials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.forms__number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.forms__button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Kantumruy Pro";
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #000000;
+    width: 200px;
+    height: 58px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    margin: 28px 0 0 0;
+    cursor: pointer;
+}
+.forms__button:hover {
+    background: #fff;
+    border: 1px solid #FD3E3A;
+    color: #000000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.forms__code form input {
+    width: 200px;
+}
+.forms__address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.forms__address p {
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 30px 10px;
+    color: #FF0A0A;
+}
+.forms__address form input {
+    margin: 10px 0;
+}
+.forms__buy {
+    font-family: "Kantumruy Pro";
+    width: 202px;
+    height: 58px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #927D54;
+    border-radius: 5px;
+    margin: 10px 0 20px 10px;
+    cursor: pointer;
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.forms__products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.forms__product {
+    font-family: "Kantumruy Pro";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 370px;
+    height: 125px;
+    border: 1px solid #B5B5B5;
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+}
+.forms__product img {
+    width: 80px;
+    height: auto;
+}
+.forms__total {
+    font-family: "Kantumruy Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+@media (max-width: 1190px) {
+    .forms {
+        max-width: 800px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .forms form input {
+        width: 290px;
+    }
+    .forms__initials {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .forms__number {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .forms__button {
+        margin: 10px 0 0 10px;
+        width: 300px;
+    }
+    .forms form input {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .forms__products {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 765px) {
+    .forms {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+@media (max-width: 430px) {
+    .forms {
+        padding: 0px;
+    }
+    .forms form {
+        margin: 10px 2px;
+    }
+    .forms__product {
+        width: 280px;
+    }
+    .forms__product img {
+        width: 60px;
+        height: auto;
+    }
+    .forms__product p {
+        font-size: 18px;
+    }
+    .forms__button {
+        margin: 10px 2px;
+    }
+}
+
+.products__aboutbread {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.two {
+    background: #FBF8F2;
+    height: auto;
+}
